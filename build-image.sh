@@ -4,4 +4,4 @@
 set -eu
 
 # build docker image
-docker build -f $IMAGE_TAG/Dockerfile -t $IMAGE_TAG .
+sudo docker build -t moso-interior .
